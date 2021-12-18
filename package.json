@@ -1,0 +1,28 @@
+{
+  "name": "ganyu",
+  "version": "0.1.0",
+  "description": "Discord Bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc -w --skipLibCheck"
+  },
+  "author": "Xyzer#2072",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.13",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravenxyzer/ganyu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ravenxyzer/ganyu/issues"
+  },
+  "homepage": "https://github.com/ravenxyzer/ganyu#readme"
+}
