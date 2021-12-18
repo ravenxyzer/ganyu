@@ -58,11 +58,11 @@ client.on('ready', () => __awaiter(void 0, void 0, void 0, function* () {
     new wokcommands_1.default(client, {
         commandsDir: path_1.default.join(__dirname, 'commands'),
         featuresDir: path_1.default.join(__dirname, 'features'),
-        typeScript: true,
+        typeScript: false,
         testServers: ['761550024131215430'],
         botOwners: ['387886389800337409'],
         // mongoUri: process.env.MONGO_URI
     })
-        .setDefaultPrefix('ts.');
+        .setDefaultPrefix('g.');
 }));
-client.login(process.env.TEST);
+client.login(process.env.GANYU);
